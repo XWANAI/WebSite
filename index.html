@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agent and Robot Company — Smart Robots for a Smarter World</title>
-  <meta name="description" content="Agent and Robot Company creates intelligent autonomous robots and AI agents for enterprises. From Pepper to advanced robotics — making robots that enrich people's lives.">
+  <title>Agent and Robot Company -- Smart Robots for a Smarter World</title>
+  <meta name="description" content="Agent and Robot Company creates intelligent autonomous robots and AI agents for enterprises. From Pepper to advanced robotics -- making robots that enrich people's lives.">
   <meta name="keywords" content="robotics company, AI robots, autonomous robots, Pepper robot, NAO robot, enterprise robotics, embodied AI">
 
   <!-- Open Graph -->
@@ -37,7 +37,7 @@
   </script>
 
   <style>
-    /* ── Reset & Base ── */
+    /* -- Reset & Base -- */
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
     body{
@@ -47,7 +47,7 @@
     img{max-width:100%;height:auto;display:block}
     a{color:inherit;text-decoration:none}
 
-    /* ── Colors ── */
+    /* -- Colors -- */
     :root {
       --blue:#0065ff;
       --blue-dark:#0047b3;
@@ -61,7 +61,7 @@
       --gray-900:#1a1a1a;
     }
 
-    /* ── Utility ── */
+    /* -- Utility -- */
     .container{width:100%;max-width:1120px;margin:0 auto;padding:0 24px}
     .section{padding:100px 0}
     .section-sm{padding:64px 0}
@@ -84,7 +84,7 @@
       font-size:1.05rem;color:var(--gray-600);max-width:560px;line-height:1.7
     }
 
-    /* ── Navigation ── */
+    /* -- Navigation -- */
     nav{
       position:fixed;top:0;left:0;right:0;z-index:100;
       background:rgba(255,255,255,.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
@@ -116,7 +116,7 @@
     .nav-cta:hover{background:var(--blue-dark);transform:translateY(-1px)}
     .mobile-toggle{display:none;background:none;border:none;color:var(--gray-800);font-size:1.5rem;cursor:pointer;padding:4px}
 
-    /* ── Hero ── */
+    /* -- Hero -- */
     .hero{
       min-height:85vh;display:flex;align-items:center;position:relative;
       background:linear-gradient(180deg,#f0f7ff 0%,#fff 50%);
@@ -152,44 +152,11 @@
     }
     .btn-secondary:hover{border-color:var(--blue);color:var(--blue)}
 
-    /* ── Hero visual ── */
+    /* -- Hero visual -- */
     .hero-visual{
       position:relative;display:flex;justify-content:center;align-items:center
     }
-    .hero-robot{
-      width:100%;max-width:360px;aspect-ratio:3/4;
-      background:linear-gradient(135deg,var(--blue-light),#dbeafe);
-      border-radius:24px;position:relative;
-      display:flex;flex-direction:column;align-items:center;justify-content:center;
-      box-shadow:0 20px 60px rgba(0,101,255,.1)
-    }
-    .hero-robot-head{
-      width:100px;height:100px;border-radius:50%;
-      background:linear-gradient(135deg,#e0e7ff,var(--blue-light));
-      border:3px solid var(--blue);display:flex;align-items:center;justify-content:center;
-      margin-bottom:12px;position:relative
-    }
-    .hero-robot-head::after{
-      content:'';width:24px;height:24px;border-radius:50%;
-      background:var(--blue);position:absolute;top:28px;left:50%;
-      transform:translateX(-50%);box-shadow:0 0 20px rgba(0,101,255,.3)
-    }
-    .hero-robot-body{
-      width:80%;height:60px;
-      background:linear-gradient(135deg,var(--blue),var(--blue-dark));
-      border-radius:16px;margin-bottom:8px
-    }
-    .hero-robot-arms{
-      display:flex;gap:60px;margin-bottom:8px
-    }
-    .hero-robot-arms span{
-      width:16px;height:40px;background:var(--blue-light);
-      border-radius:8px;border:2px solid var(--blue)
-    }
-    .hero-robot-base{
-      width:70%;height:20px;
-      background:var(--gray-200);border-radius:10px
-    }
+    .hero-svg{width:100%;max-width:340px;height:auto;filter:drop-shadow(0 8px 30px rgba(0,101,255,.08))}
     .hero-orb{
       position:absolute;width:240px;height:240px;border-radius:50%;
       background:radial-gradient(circle,rgba(0,101,255,.08) 0%,transparent 70%);
@@ -200,7 +167,7 @@
       50%{transform:scale(1.2);opacity:1}
     }
 
-    /* ── Stats Bar ── */
+    /* -- Stats Bar -- */
     .stats-bar{
       background:var(--gray-50);border-top:1px solid var(--gray-200);
       border-bottom:1px solid var(--gray-200)
@@ -215,7 +182,7 @@
     .stat-value{font-size:2rem;font-weight:700;color:var(--blue);letter-spacing:-.02em}
     .stat-label{font-size:.82rem;color:var(--gray-600);margin-top:6px;font-weight:400}
 
-    /* ── Products ── */
+    /* -- Products -- */
     .products-grid{
       display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px;margin-top:48px
     }
@@ -237,26 +204,7 @@
     .product-visual.agent{
       background:linear-gradient(135deg,#ecfeff,#ccfbf1)
     }
-    .product-robot-icon{
-      width:90px;height:120px;border-radius:30px 30px 16px 16px;
-      border:3px solid var(--blue);position:relative
-    }
-    .product-robot-icon .head{
-      width:50px;height:50px;border-radius:50%;background:var(--blue-light);
-      border:3px solid var(--blue);position:absolute;top:-25px;left:50%;
-      transform:translateX(-50%)
-    }
-    .product-robot-icon .head .eye{
-      width:10px;height:10px;border-radius:50%;background:var(--blue);
-      position:absolute;top:15px;left:50%;transform:translateX(-50%);
-      box-shadow:0 0 12px rgba(0,101,255,.4)
-    }
-    .product-visual.nao .product-robot-icon{border-color:#7c3aed}
-    .product-visual.nao .product-robot-icon .head{background:#ede9fe;border-color:#7c3aed}
-    .product-visual.nao .product-robot-icon .head .eye{background:#7c3aed}
-    .product-visual.agent .product-robot-icon{border-color:#059669;width:90px;height:100px}
-    .product-visual.agent .product-robot-icon .head{background:#ccfbf1;border-color:#059669;width:60px;height:40px;border-radius:20px}
-    .product-visual.agent .product-robot-icon .head .eye{background:#059669}
+    .product-visual svg{width:100%;height:100%;padding:16px}
     .product-body{padding:28px 28px 32px}
     .product-body h3{font-size:1.15rem;font-weight:700;margin-bottom:8px}
     .product-body .role{
@@ -270,7 +218,7 @@
       background:var(--gray-100);color:var(--gray-800)
     }
 
-    /* ── Solutions / Use Cases ── */
+    /* -- Solutions / Use Cases -- */
     .solutions-grid{
       display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:48px
     }
@@ -283,7 +231,7 @@
     .solution-card h4{font-size:1rem;font-weight:700;margin-bottom:8px}
     .solution-card p{font-size:.85rem;color:var(--gray-600);line-height:1.6}
 
-    /* ── About / Philosophy ── */
+    /* -- About / Philosophy -- */
     .about-grid{
       display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center
     }
@@ -318,9 +266,9 @@
       padding:10px 0;border-bottom:1px solid var(--gray-100);
       font-size:.9rem;color:var(--gray-800);display:flex;align-items:center;gap:10px
     }
-    .about-list li::before{content:"✓";color:var(--blue);font-weight:700}
+    .about-list li::before{content:">";color:var(--blue);font-weight:700}
 
-    /* ── Contact ── */
+    /* -- Contact -- */
     .contact-section{
       background:var(--gray-50);text-align:center;padding:100px 0
     }
@@ -339,7 +287,7 @@
     }
     .contact-detail a{color:var(--blue);font-weight:500}
 
-    /* ── Footer ── */
+    /* -- Footer -- */
     footer{
       border-top:1px solid var(--gray-200);padding:48px 0 32px;
       color:var(--gray-600);font-size:.85rem
@@ -357,13 +305,13 @@
       display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px
     }
 
-    /* ── Responsive ── */
+    /* -- Responsive -- */
     @media(max-width:900px){
       .hero .container{grid-template-columns:1fr;gap:40px;text-align:center}
       .hero-actions{justify-content:center}
       .hero p{margin:0 auto 32px}
       .hero-visual{order:-1}
-      .hero-robot{max-width:240px}
+      .hero-svg{max-width:260px}
       .about-grid{grid-template-columns:1fr;gap:32px}
       .about-visual{height:260px}
       footer .container{grid-template-columns:1fr 1fr}
@@ -395,7 +343,7 @@
 </head>
 <body>
 
-  <!-- ── Navigation ── -->
+  <!-- -- Navigation -- -->
   <nav>
     <div class="container">
       <a href="/" class="logo">
@@ -408,40 +356,88 @@
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="#contact" class="nav-cta">Contact Sales →</a>
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
+      <a href="#contact" class="nav-cta">Contact Sales -></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">[=]</button>
     </div>
   </nav>
 
-  <!-- ── Hero ── -->
+  <!-- -- Hero -- -->
   <section class="hero">
     <div class="container">
       <div>
-        <div class="hero-badge fade-in visible">✦ Robotics · AI Agents</div>
+        <div class="hero-badge fade-in visible">* Robotics . AI Agents</div>
         <h1 class="fade-in visible fade-in-d1">Robots that<br><span class="highlight">understand, interact,</span><br>and enrich lives.</h1>
-        <p class="fade-in visible fade-in-d2">From humanoid companions to autonomous AI agents — we create intelligent robotics platforms that empower businesses, educators, and developers worldwide.</p>
+        <p class="fade-in visible fade-in-d2">From humanoid companions to autonomous AI agents -- we create intelligent robotics platforms that empower businesses, educators, and developers worldwide.</p>
         <div class="hero-actions fade-in visible fade-in-d3">
-          <a href="#products" class="btn-primary">Explore Products ↓</a>
+          <a href="#products" class="btn-primary">Explore Products v</a>
           <a href="#contact" class="btn-secondary">Get in Touch</a>
         </div>
       </div>
       <div class="hero-visual fade-in visible fade-in-d4">
         <div class="hero-orb"></div>
-        <div class="hero-robot">
-          <div class="hero-robot-head">
-            <span class="hero-robot-head-orb"></span>
-          </div>
-          <div class="hero-robot-arms">
-            <span></span><span></span>
-          </div>
-          <div class="hero-robot-body"></div>
-          <div class="hero-robot-base"></div>
-        </div>
+        <svg viewBox="0 0 340 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+          <!-- Shadow -->
+          <ellipse cx="170" cy="400" rx="100" ry="16" fill="rgba(0,101,255,0.06)"/>
+          <!-- Legs -->
+          <rect x="130" y="320" width="28" height="60" rx="8" fill="#e2e4ea"/>
+          <rect x="182" y="320" width="28" height="60" rx="8" fill="#e2e4ea"/>
+          <rect x="128" y="368" width="32" height="22" rx="8" fill="#d1d5db"/>
+          <rect x="180" y="368" width="32" height="22" rx="8" fill="#d1d5db"/>
+          <!-- Body -->
+          <path d="M120 180 C120 120,160 100,170 100 C180 100,220 120,220 180 L220 300 C220 320,210 330,170 330 C130 330,120 320,120 300 Z" fill="url(#bodyGrad)" stroke="#e2e4ea" stroke-width="1.5"/>
+          <!-- Chest detail -->
+          <rect x="145" y="170" width="50" height="70" rx="10" fill="rgba(255,255,255,0.5)" stroke="#dbeafe" stroke-width="1"/>
+          <rect x="152" y="180" width="36" height="6" rx="3" fill="#0065ff" opacity="0.6"/>
+          <rect x="152" y="192" width="28" height="6" rx="3" fill="#0065ff" opacity="0.4"/>
+          <rect x="152" y="204" width="32" height="6" rx="3" fill="#0065ff" opacity="0.5"/>
+          <rect x="152" y="216" width="20" height="6" rx="3" fill="#0065ff" opacity="0.3"/>
+          <!-- Collar -->
+          <path d="M140 145 Q170 160 200 145" stroke="#0065ff" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <!-- Arms -->
+          <path d="M120 190 C90 200,70 250,75 280" stroke="url(#armGrad)" stroke-width="22" stroke-linecap="round" fill="none"/>
+          <path d="M220 190 C250 200,270 250,265 280" stroke="url(#armGrad)" stroke-width="22" stroke-linecap="round" fill="none"/>
+          <!-- Hands -->
+          <circle cx="75" cy="285" r="12" fill="#e2e4ea"/>
+          <circle cx="265" cy="285" r="12" fill="#e2e4ea"/>
+          <!-- Neck -->
+          <rect x="160" y="90" width="20" height="20" rx="6" fill="#d1d5db"/>
+          <!-- Head -->
+          <path d="M125 70 C125 30,150 10,170 10 C190 10,215 30,215 70 L215 90 C215 100,205 105,170 105 C135 105,125 100,125 90 Z" fill="url(#headGrad)" stroke="#e2e4ea" stroke-width="1.5"/>
+          <!-- Eyes -->
+          <ellipse cx="155" cy="55" rx="16" ry="12" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+          <ellipse cx="185" cy="55" rx="16" ry="12" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+          <circle cx="155" cy="55" r="8" fill="#0065ff"/>
+          <circle cx="185" cy="55" r="8" fill="#0065ff"/>
+          <circle cx="157" cy="53" r="3" fill="#fff"/>
+          <circle cx="187" cy="53" r="3" fill="#fff"/>
+          <!-- Mouth -->
+          <path d="M158 78 Q170 88 182 78" stroke="#0065ff" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <!-- Ears -->
+          <rect x="108" y="55" width="18" height="12" rx="6" fill="#e2e4ea" stroke="#d1d5db" stroke-width="1"/>
+          <rect x="214" y="55" width="18" height="12" rx="6" fill="#e2e4ea" stroke="#d1d5db" stroke-width="1"/>
+          <!-- Head accent -->
+          <path d="M145 15 Q170 5 195 15" stroke="#0065ff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+          <!-- Gradients -->
+          <defs>
+            <linearGradient id="bodyGrad" x1="170" y1="100" x2="170" y2="330">
+              <stop offset="0%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#f0f4f8"/>
+            </linearGradient>
+            <linearGradient id="headGrad" x1="170" y1="10" x2="170" y2="105">
+              <stop offset="0%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#f8fafc"/>
+            </linearGradient>
+            <linearGradient id="armGrad" x1="170" y1="190" x2="170" y2="280">
+              <stop offset="0%" stop-color="#e2e4ea"/>
+              <stop offset="100%" stop-color="#d1d5db"/>
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
     </div>
   </section>
 
-  <!-- ── Stats ── -->
+  <!-- -- Stats -- -->
   <div class="stats-bar">
     <div class="container">
       <div class="stats-grid">
@@ -453,7 +449,7 @@
     </div>
   </div>
 
-  <!-- ── Products ── -->
+  <!-- -- Products -- -->
   <section class="section" id="products">
     <div class="container">
       <div class="fade-in">
@@ -464,14 +460,57 @@
       <div class="products-grid">
         <div class="product-card fade-in fade-in-d1">
           <div class="product-visual pepper">
-            <div class="product-robot-icon">
-              <div class="head"><div class="eye"></div></div>
-            </div>
+            <svg viewBox="0 0 280 240" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <!-- Shadow -->
+              <ellipse cx="140" cy="225" rx="80" ry="10" fill="rgba(0,101,255,0.06)"/>
+              <!-- Body main -->
+              <path d="M95 85 C95 50,115 35,140 35 C165 35,185 50,185 85 L185 175 C185 195,175 205,140 205 C105 205,95 195,95 175 Z" fill="#fff" stroke="#e2e4ea" stroke-width="1.5"/>
+              <!-- Chest screen -->
+              <rect x="120" y="95" width="40" height="56" rx="6" fill="#f0f7ff" stroke="#dbeafe" stroke-width="1"/>
+              <circle cx="140" cy="115" r="6" fill="#0065ff" opacity="0.3"/>
+              <rect x="126" y="128" width="28" height="4" rx="2" fill="#0065ff" opacity="0.5"/>
+              <rect x="126" y="137" width="20" height="4" rx="2" fill="#0065ff" opacity="0.3"/>
+              <rect x="126" y="146" width="24" height="4" rx="2" fill="#0065ff" opacity="0.4"/>
+              <!-- Collar accent -->
+              <path d="M110 78 Q140 92 170 78" stroke="#0065ff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <!-- Arms -->
+              <path d="M92 100 C70 110,58 145,60 170" stroke="#e2e4ea" stroke-width="18" stroke-linecap="round" fill="none"/>
+              <path d="M188 100 C210 110,222 145,220 170" stroke="#e2e4ea" stroke-width="18" stroke-linecap="round" fill="none"/>
+              <circle cx="60" cy="174" r="10" fill="#d1d5db"/>
+              <circle cx="220" cy="174" r="10" fill="#d1d5db"/>
+              <!-- Neck -->
+              <rect x="133" y="50" width="14" height="14" rx="4" fill="#d1d5db"/>
+              <!-- Head -->
+              <path d="M108 42 C108 16,125 5,140 5 C155 5,172 16,172 42 L172 52 C172 60,165 64,140 64 C115 64,108 60,108 52 Z" fill="url(#pepHead)" stroke="#e2e4ea" stroke-width="1.5"/>
+              <!-- Eyes -->
+              <ellipse cx="128" cy="30" rx="12" ry="9" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+              <ellipse cx="152" cy="30" rx="12" ry="9" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+              <circle cx="128" cy="30" r="6" fill="#0065ff"/>
+              <circle cx="152" cy="30" r="6" fill="#0065ff"/>
+              <circle cx="129" cy="29" r="2.5" fill="#fff"/>
+              <circle cx="153" cy="29" r="2.5" fill="#fff"/>
+              <!-- Mouth smile -->
+              <path d="M132 46 Q140 52 148 46" stroke="#0065ff" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+              <!-- Ear antennas -->
+              <rect x="95" y="26" width="14" height="8" rx="4" fill="#e2e4ea" stroke="#d1d5db" stroke-width="0.8"/>
+              <rect x="171" y="26" width="14" height="8" rx="4" fill="#e2e4ea" stroke="#d1d5db" stroke-width="0.8"/>
+              <!-- Headband -->
+              <path d="M110 10 Q140 4 170 10" stroke="#0065ff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+              <!-- Wheels at base -->
+              <circle cx="120" cy="208" r="10" fill="#0065ff" opacity="0.15"/>
+              <circle cx="160" cy="208" r="10" fill="#0065ff" opacity="0.15"/>
+              <defs>
+                <linearGradient id="pepHead" x1="140" y1="5" x2="140" y2="64">
+                  <stop offset="0%" stop-color="#fff"/>
+                  <stop offset="100%" stop-color="#f8fafc"/>
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
           <div class="product-body">
             <span class="role">Social Robot</span>
             <h3>Aria</h3>
-            <p class="desc">A humanoid social robot designed for customer engagement, education, and hospitality. Aria recognizes faces, understands emotions, and holds natural conversations — making every interaction memorable.</p>
+            <p class="desc">A humanoid social robot designed for customer engagement, education, and hospitality. Aria recognizes faces, understands emotions, and holds natural conversations -- making every interaction memorable.</p>
             <div class="product-tags">
               <span>Social AI</span>
               <span>Speech</span>
@@ -482,9 +521,55 @@
         </div>
         <div class="product-card fade-in fade-in-d2">
           <div class="product-visual nao">
-            <div class="product-robot-icon">
-              <div class="head"><div class="eye"></div></div>
-            </div>
+            <svg viewBox="0 0 280 240" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <!-- Shadow -->
+              <ellipse cx="140" cy="228" rx="70" ry="8" fill="rgba(124,58,237,0.08)"/>
+              <!-- Legs -->
+              <path d="M122 180 L122 210 C122 218,118 222,112 222 L108 222" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.3"/>
+              <path d="M158 180 L158 210 C158 218,162 222,168 222 L172 222" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.3"/>
+              <!-- Body -->
+              <path d="M110 95 C110 75,120 65,140 65 C160 65,170 75,170 95 L170 170 C170 185,162 190,140 190 C118 190,110 185,110 170 Z" fill="#fff" stroke="#e2e4ea" stroke-width="1.5"/>
+              <!-- Chest button panel -->
+              <rect x="130" y="105" width="20" height="28" rx="5" fill="#faf5ff" stroke="#ede9fe" stroke-width="1"/>
+              <circle cx="140" cy="114" r="3" fill="#7c3aed" opacity="0.5"/>
+              <circle cx="140" cy="124" r="3" fill="#7c3aed" opacity="0.3"/>
+              <!-- Arms -->
+              <path d="M108 100 C85 110,72 135,70 155" stroke="#f0f1f4" stroke-width="14" stroke-linecap="round" fill="none"/>
+              <path d="M172 100 C195 110,208 135,210 155" stroke="#f0f1f4" stroke-width="14" stroke-linecap="round" fill="none"/>
+              <!-- Arm joints -->
+              <circle cx="108" cy="100" r="6" fill="#7c3aed" opacity="0.4"/>
+              <circle cx="172" cy="100" r="6" fill="#7c3aed" opacity="0.4"/>
+              <circle cx="70" cy="158" r="7" fill="#7c3aed" opacity="0.3"/>
+              <circle cx="210" cy="158" r="7" fill="#7c3aed" opacity="0.3"/>
+              <!-- Neck -->
+              <rect x="134" y="58" width="12" height="12" rx="4" fill="#d1d5db"/>
+              <!-- Head -->
+              <path d="M112 48 C112 22,126 10,140 10 C154 10,168 22,168 48 L168 56 C168 64,162 68,140 68 C118 68,112 64,112 56 Z" fill="url(#sparkHead)" stroke="#e2e4ea" stroke-width="1.5"/>
+              <!-- Eyes (large, cute) -->
+              <ellipse cx="130" cy="36" rx="10" ry="10" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+              <ellipse cx="150" cy="36" rx="10" ry="10" fill="#fff" stroke="#d1d5db" stroke-width="1"/>
+              <circle cx="130" cy="36" r="5" fill="#7c3aed"/>
+              <circle cx="150" cy="36" r="5" fill="#7c3aed"/>
+              <circle cx="131" cy="35" r="2" fill="#fff"/>
+              <circle cx="151" cy="35" r="2" fill="#fff"/>
+              <!-- Eyebrows -->
+              <path d="M122 26 Q130 22 138 26" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+              <path d="M142 26 Q150 22 158 26" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+              <!-- Mouth -->
+              <path d="M134 50 Q140 55 146 50" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+              <!-- Ears -->
+              <rect x="102" y="32" width="11" height="8" rx="4" fill="#ede9fe" stroke="#d1d5db" stroke-width="0.8"/>
+              <rect x="167" y="32" width="11" height="8" rx="4" fill="#ede9fe" stroke="#d1d5db" stroke-width="0.8"/>
+              <!-- Head accent LED -->
+              <circle cx="140" cy="14" r="4" fill="#7c3aed" opacity="0.5"/>
+              <circle cx="140" cy="14" r="2" fill="#7c3aed"/>
+              <defs>
+                <linearGradient id="sparkHead" x1="140" y1="10" x2="140" y2="68">
+                  <stop offset="0%" stop-color="#fff"/>
+                  <stop offset="100%" stop-color="#faf5ff"/>
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
           <div class="product-body">
             <span class="role">Educational Robot</span>
@@ -500,9 +585,44 @@
         </div>
         <div class="product-card fade-in fade-in-d3">
           <div class="product-visual agent">
-            <div class="product-robot-icon">
-              <div class="head"><div class="eye"></div></div>
-            </div>
+            <svg viewBox="0 0 280 240" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <!-- Holographic circles -->
+              <circle cx="140" cy="120" r="90" stroke="#059669" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.15"/>
+              <circle cx="140" cy="120" r="70" stroke="#059669" stroke-width="1" stroke-dasharray="3 6" fill="none" opacity="0.12"/>
+              <circle cx="140" cy="120" r="50" stroke="#059669" stroke-width="1.5" fill="none" opacity="0.2"/>
+              <!-- Hexagon core -->
+              <path d="M140 45 L195 75 L195 135 L140 165 L85 135 L85 75 Z" fill="#ecfdf5" stroke="#059669" stroke-width="2" opacity="0.6"/>
+              <path d="M140 55 L185 80 L185 130 L140 155 L95 130 L95 80 Z" fill="rgba(5,150,101,0.05)" stroke="#059669" stroke-width="1" opacity="0.4"/>
+              <!-- Inner glow -->
+              <circle cx="140" cy="110" r="30" fill="rgba(5,150,101,0.06)"/>
+              <!-- Neural nodes and connections -->
+              <circle cx="140" cy="60" r="5" fill="#059669" opacity="0.6"/>
+              <circle cx="180" cy="85" r="4" fill="#059669" opacity="0.5"/>
+              <circle cx="100" cy="85" r="4" fill="#059669" opacity="0.5"/>
+              <circle cx="140" cy="110" r="6" fill="#059669" opacity="0.8"/>
+              <circle cx="175" cy="125" r="4" fill="#059669" opacity="0.5"/>
+              <circle cx="105" cy="125" r="4" fill="#059669" opacity="0.5"/>
+              <circle cx="140" cy="155" r="4" fill="#059669" opacity="0.4"/>
+              <!-- Neural connections -->
+              <path d="M140 60 L180 85 L140 110" stroke="#059669" stroke-width="1.2" fill="none" opacity="0.25"/>
+              <path d="M140 60 L100 85 L140 110" stroke="#059669" stroke-width="1.2" fill="none" opacity="0.25"/>
+              <path d="M140 110 L175 125 L140 155" stroke="#059669" stroke-width="1.2" fill="none" opacity="0.25"/>
+              <path d="M140 110 L105 125 L140 155" stroke="#059669" stroke-width="1.2" fill="none" opacity="0.25"/>
+              <path d="M140 60 L140 155" stroke="#059669" stroke-width="1" stroke-dasharray="3 3" fill="none" opacity="0.15"/>
+              <!-- Data particles flowing -->
+              <circle cx="155" cy="72" r="2" fill="#059669" opacity="0.7"/>
+              <circle cx="120" cy="98" r="2" fill="#059669" opacity="0.5"/>
+              <circle cx="160" cy="100" r="2" fill="#059669" opacity="0.6"/>
+              <circle cx="128" cy="138" r="2" fill="#059669" opacity="0.4"/>
+              <circle cx="152" cy="138" r="2" fill="#059669" opacity="0.5"/>
+              <!-- Pulse ring animation -->
+              <circle cx="140" cy="110" r="40" stroke="#059669" stroke-width="1" fill="none" opacity="0.08"/>
+              <!-- Bottom interface bar -->
+              <rect x="110" y="180" width="60" height="6" rx="3" fill="#059669" opacity="0.15"/>
+              <rect x="120" y="192" width="40" height="4" rx="2" fill="#059669" opacity="0.1"/>
+              <!-- Label -->
+              <text x="140" y="218" text-anchor="middle" fill="#059669" font-size="11" font-weight="600" font-family="system-ui" opacity="0.6">A I . A G E N T</text>
+            </svg>
           </div>
           <div class="product-body">
             <span class="role">AI Agent Platform</span>
@@ -520,42 +640,42 @@
     </div>
   </section>
 
-  <!-- ── Solutions ── -->
+  <!-- -- Solutions -- -->
   <section class="section" id="solutions" style="background:var(--gray-50)">
     <div class="container">
       <div class="fade-in" style="text-align:center">
         <span class="section-label">Use Cases</span>
         <h2 class="section-title">Robots at work, everywhere.</h2>
-        <p class="section-subtitle" style="margin:0 auto">From retail floors to research labs — our robots are making a difference.</p>
+        <p class="section-subtitle" style="margin:0 auto">From retail floors to research labs -- our robots are making a difference.</p>
       </div>
       <div class="solutions-grid">
         <div class="solution-card fade-in fade-in-d1">
-          <span class="solution-icon">🏪</span>
+          <span class="solution-icon">[Store]</span>
           <h4>Retail & Hospitality</h4>
           <p>Customer engagement, guided tours, product information, and queue management in stores, hotels, and malls.</p>
         </div>
         <div class="solution-card fade-in fade-in-d1">
-          <span class="solution-icon">🏥</span>
+          <span class="solution-icon">[Health]</span>
           <h4>Healthcare</h4>
           <p>Patient assistance, appointment reminders, mental wellness support, and wayfinding in hospitals and clinics.</p>
         </div>
         <div class="solution-card fade-in fade-in-d2">
-          <span class="solution-icon">🎓</span>
+          <span class="solution-icon">[Edu]</span>
           <h4>Education</h4>
           <p>Interactive learning companion for STEM, language practice, coding classes, and special needs education.</p>
         </div>
         <div class="solution-card fade-in fade-in-d2">
-          <span class="solution-icon">🏭</span>
+          <span class="solution-icon">[Factory]</span>
           <h4>Enterprise</h4>
           <p>Facility monitoring, visitor management, internal communications, and automation in corporate environments.</p>
         </div>
         <div class="solution-card fade-in fade-in-d3">
-          <span class="solution-icon">🔬</span>
+          <span class="solution-icon">[Research]</span>
           <h4>Research</h4>
           <p>An open platform for robotics research in HRI, computer vision, NLP, and multi-agent systems.</p>
         </div>
         <div class="solution-card fade-in fade-in-d3">
-          <span class="solution-icon">🌐</span>
+          <span class="solution-icon">[Global]</span>
           <h4>Public Service</h4>
           <p>Information kiosks, language translation, accessibility support, and public engagement in civic spaces.</p>
         </div>
@@ -563,7 +683,7 @@
     </div>
   </section>
 
-  <!-- ── About ── -->
+  <!-- -- About -- -->
   <section class="section" id="about">
     <div class="container">
       <div class="about-grid">
@@ -579,7 +699,7 @@
           <p>Our platforms power robots in over 70 countries, serving enterprises, educational institutions, and developers who are shaping the future of human-robot interaction.</p>
           <ul class="about-list">
             <li>Global presence with partners in 70+ countries</li>
-            <li>Open platform — developer-friendly SDKs and APIs</li>
+            <li>Open platform -- developer-friendly SDKs and APIs</li>
             <li>Privacy-first architecture with enterprise-grade security</li>
             <li>Accessible in China and worldwide with full localization</li>
             <li>Sustainable, long-life hardware designed for continuous operation</li>
@@ -589,7 +709,7 @@
     </div>
   </section>
 
-  <!-- ── Contact ── -->
+  <!-- -- Contact -- -->
   <section class="contact-section" id="contact">
     <div class="container">
       <div class="fade-in">
@@ -598,7 +718,7 @@
         <p>Interested in our robots, platform, or partnership? We'd love to hear from you.</p>
         <div class="contact-form">
           <input type="email" placeholder="your@email.com" id="contactEmail">
-          <button class="btn-primary" onclick="handleContact()">Send Inquiry →</button>
+          <button class="btn-primary" onclick="handleContact()">Send Inquiry -></button>
         </div>
         <div class="contact-detail">
           or reach us at <a href="mailto:hello@xwan.ai">hello@xwan.ai</a>
@@ -607,7 +727,7 @@
     </div>
   </section>
 
-  <!-- ── Footer ── -->
+  <!-- -- Footer -- -->
   <footer>
     <div class="container">
       <div class="footer-brand">
@@ -643,7 +763,7 @@
     </div>
     <div class="container">
       <div class="footer-bottom">
-        <span>© 2025–2026 Agent and Robot Company. All rights reserved.</span>
+        <span>(c) 2025-2026 Agent and Robot Company. All rights reserved.</span>
         <span>
           <a href="https://xwan.ai">xwan.ai</a>
         </span>
@@ -652,7 +772,7 @@
   </footer>
 
   <script>
-    // ── Fade-in observer ──
+    // -- Fade-in observer --
     const observer = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if(e.isIntersecting) e.target.classList.add('visible');
@@ -660,12 +780,12 @@
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-    // ── Mobile toggle ──
+    // -- Mobile toggle --
     document.getElementById('mobileToggle').addEventListener('click', function(){
       document.getElementById('navLinks').classList.toggle('open');
     });
 
-    // ── Contact ──
+    // -- Contact --
     function handleContact(){
       const email = document.getElementById('contactEmail').value.trim();
       if(!email){ alert('Please enter your email.'); return; }
